@@ -1,0 +1,10 @@
+@CopilotHybrid_HostAddress = http://localhost:5034
+
+POST {{CopilotHybrid_HostAddress}}/api/chat/ask
+Content-Type: application/json
+
+{
+  "prompt": "Quais são as projeções da XP para a taxa Selic no final de 2026?"
+}
+
+###

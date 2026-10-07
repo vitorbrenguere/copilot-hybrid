@@ -1,0 +1,10 @@
+# Visual Studio / .NET build directories
+/[Bb]in/
+/[Oo]j/
+.vs/
+*.user
+*.suo
+project.lock.json
+*.pidb
+*.lock
+appsettings.Development.json

@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "dgSpecHash": "UREDdSdetWQ=",
+  "success": true,
+  "projectFilePath": "D:\\CODING\\copilot-hybrid\\CopilotHybrid\\CopilotHybrid.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vitor\\.nuget\\packages\\azure.ai.openai\\2.1.0-beta.2\\azure.ai.openai.2.1.0-beta.2.nupkg.sha512",
+    "C:\\Users\\vitor\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
+    "C:\\Users\\vitor\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.12\\microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512",
+    "C:\\Users\\vitor\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+    "C:\\Users\\vitor\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
+    "C:\\Users\\vitor\\.nuget\\packages\\microsoft.extensions.ai\\9.1.0-preview.1.25064.3\\microsoft.extensions.ai.9.1.0-preview.1.25064.3.nupkg.sha512",
+    "C:\\Users\\vitor\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\9.1.0-preview.1.25064.3\\microsoft.extensions.ai.abstractions.9.1.0-preview.1.25064.3.nupkg.sha512",
+    "C:\\Users\\vitor\\.nuget\\packages\\microsoft.extensions.vectordata.abstractions\\9.0.0-preview.1.25078.1\\microsoft.extensions.vectordata.abstractions.9.0.0-preview.1.25078.1.nupkg.sha512",
+    "C:\\Users\\vitor\\.nuget\\packages\\microsoft.openapi\\2.12.0\\microsoft.openapi.2.12.0.nupkg.sha512",
+    "C:\\Users\\vitor\\.nuget\\packages\\microsoft.semantickernel\\1.35.0\\microsoft.semantickernel.1.35.0.nupkg.sha512",
+    "C:\\Users\\vitor\\.nuget\\packages\\microsoft.semantickernel.abstractions\\1.35.0\\microsoft.semantickernel.abstractions.1.35.0.nupkg.sha512",
+    "C:\\Users\\vitor\\.nuget\\packages\\microsoft.semantickernel.connectors.azureopenai\\1.35.0\\microsoft.semantickernel.connectors.azureopenai.1.35.0.nupkg.sha512",
+    "C:\\Users\\vitor\\.nuget\\packages\\microsoft.semantickernel.connectors.openai\\1.35.0\\microsoft.semantickernel.connectors.openai.1.35.0.nupkg.sha512",
+    "C:\\Users\\vitor\\.nuget\\packages\\microsoft.semantickernel.core\\1.35.0\\microsoft.semantickernel.core.1.35.0.nupkg.sha512",
+    "C:\\Users\\vitor\\.nuget\\packages\\openai\\2.1.0-beta.2\\openai.2.1.0-beta.2.nupkg.sha512",
+    "C:\\Users\\vitor\\.nuget\\packages\\pdfpig\\0.1.9\\pdfpig.0.1.9.nupkg.sha512",
+    "C:\\Users\\vitor\\.nuget\\packages\\system.clientmodel\\1.2.1\\system.clientmodel.1.2.1.nupkg.sha512",
+    "C:\\Users\\vitor\\.nuget\\packages\\system.memory.data\\6.0.0\\system.memory.data.6.0.0.nupkg.sha512",
+    "C:\\Users\\vitor\\.nuget\\packages\\system.numerics.tensors\\8.0.0\\system.numerics.tensors.8.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "CopilotHybrid depende de Microsoft.Extensions.AI (>= 9.0.1-preview.1.25064.6), mas Microsoft.Extensions.AI 9.0.1-preview.1.25064.6 não foi encontrado. Microsoft.Extensions.AI 9.1.0-preview.1.25064.3 foi resolvido em vez disso.",
+      "projectPath": "D:\\CODING\\copilot-hybrid\\CopilotHybrid\\CopilotHybrid.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\CODING\\copilot-hybrid\\CopilotHybrid\\CopilotHybrid.csproj",
+      "libraryId": "Microsoft.Extensions.AI",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1904",
+      "level": "Warning",
+      "message": "O pacote 'Microsoft.SemanticKernel.Core' 1.35.0 tem uma crítico vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-2ww3-72rp-wpp4",
+      "projectPath": "D:\\CODING\\copilot-hybrid\\CopilotHybrid\\CopilotHybrid.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\CODING\\copilot-hybrid\\CopilotHybrid\\CopilotHybrid.csproj",
+      "libraryId": "Microsoft.SemanticKernel.Core",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
